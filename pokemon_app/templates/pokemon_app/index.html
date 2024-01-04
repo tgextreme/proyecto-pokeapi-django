@@ -1,0 +1,8 @@
+
+
+{% for pokemon in pokemons %}
+<tr>
+    <td><a href="{{ pokemon.url }}">{{ pokemon.name }}</a></td>
+    <td>{{ pokemon.url }}</td>
+</tr>
+{% endfor %}
